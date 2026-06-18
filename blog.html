@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFord Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="header-blog">
+      <nav>
+        <a href="index.html"><img src="eduford_img/logo.png" alt="Logo" /></a>
+        <div class="nav-links" id="nav-links">
+          <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+      </nav>
+      <div class="text-box">
+        <h1>Our Certificate & Online Programs For 2021</h1>
+      </div>
+    </section>
+
+    <!---------blog page content------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="eduford_img/certificate.jpg" alt="" />
+          <h2>Our Certificate & Online Programs For 2021</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio
+            reiciendis ad quisquam commodi cupiditate Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Dignissimos aut quos incidunt, ea
+            consectetur tempore quasi a harum iusto amet. Lorem ipsum dolor sit
+            amet, consectetur adipisicing elit. Quia, voluptate tenetur dolor,
+            necessitatibus ut aliquam labore inventore porro eveniet debitis rem
+            delectus in, magnam vitae voluptatibus facilis placeat veniam
+            voluptatem?
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni
+            officiis autem nobis doloribus nulla impedit a illo officia
+            repudiandae iusto. Lorem ipsum dolor sit amet, consectetur
+            adipisicing elit. Autem commodi maiores possimus? Unde, explicabo
+            vel accusamus reiciendis repudiandae obcaecati ut facilis blanditiis
+            expedita debitis aspernatur non labore, delectus odio rerum? Lorem
+            ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus
+            facilis quos debitis architecto placeat id eligendi, exercitationem
+            repudiandae dolorum perferendis. Dolore minus optio labore quasi!
+          </p>
+          <br />
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum,
+            soluta aliquam. Recusandae quod praesentium neque sed blanditiis,
+            saepe ducimus. Esse, sunt sint! Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Voluptas officiis adipisci labore
+            voluptatibus fugiat laboriosam, esse accusantium assumenda libero
+            dolores quisquam, modi tempore, ipsa doloremque maxime accusamus
+            odit? Pariatur consequatur impedit odit placeat quidem maiores!
+          </p>
+
+          <div class="comment-box">
+            <h3>Leave A Comment</h3>
+            <form action="" class="comment-form">
+                <input type="text" placeholder="Enter Name">
+                <input type="text" placeholder="Enter Email">
+                <textarea rows="5" placeholder="Your Comment"></textarea>
+                <button type="submit" class="know-more red-btn">POST COMMENT</button>
+            </form>
+          </div>
+
+        </div>
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Business Analytics</span>
+                <span>21</span>
+            </div>
+             <div>
+                <span>Data Science</span>
+                <span>51</span>
+            </div>
+             <div>
+                <span>Machine Learning</span>
+                <span>67</span>
+            </div>
+             <div>
+                <span>Information Technology</span>
+                <span>32</span>
+            </div>
+             <div>
+                <span>Journalism</span>
+                <span>29</span>
+            </div>
+             <div>
+                <span>AutoCAD</span>
+                <span>15</span>
+            </div>
+             <div>
+                <span>Commerce Analytics</span>
+                <span>39</span>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <!--------Footer----------->
+    <section class="footer">
+      <h4>About US</h4>
+      <p>
+        We're a leading research university with a heart. Founded in the decade
+        that the U.S. Constitution was signed, we're the nation's oldest
+        Catholic and Jesuit university. We're a community of people who bridge
+        our disparate experiences and identities. Meet the people and places
+        that make Eduford home.
+      </p>
+    </section>
+
+    <!--------JavaScript----------->
+    <script>
+      var navLinks = document.getElementById("nav-links");
+      function showmenu() {
+        navLinks.style.right = "0";
+      }
+      function hidemenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
